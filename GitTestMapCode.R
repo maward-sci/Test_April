@@ -11,7 +11,7 @@ ggplot(data = CA) +
 
 ggplot(data = CA) + 
   geom_point(aes(x = long, y = lat))+
-  theme_classic()
+  theme_classic() +  labs(title="hello cali")
 
 
 #testing- smerolla says hello!
