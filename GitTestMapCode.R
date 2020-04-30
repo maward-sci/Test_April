@@ -4,6 +4,7 @@ library(maps)
 library(mapdata)
 
 #Carina was here
+#but also here?
 states <- map_data("state")
 CA <- subset(states, region %in% c("california"))
 ggplot(data = CA) + 
@@ -23,3 +24,4 @@ ggplot(data = CA) +
 
 
 ##I hope you brought a pool noodle
+##a long pool noodle
