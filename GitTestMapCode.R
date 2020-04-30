@@ -3,6 +3,7 @@ library(ggmap)
 library(maps)
 library(mapdata)
 
+#Carina was here
 states <- map_data("state")
 CA <- subset(states, region %in% c("california"))
 ggplot(data = CA) + 
