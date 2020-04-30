@@ -3,6 +3,7 @@ library(ggmap)
 library(maps)
 library(mapdata)
 
+#Carina was here
 states <- map_data("state")
 CA <- subset(states, region %in% c("california"))
 ggplot(data = CA) + 
@@ -15,4 +16,5 @@ ggplot(data = CA) +
 
 
 #testing- smerolla says hello!
+
 ##smerolla says hello again!
