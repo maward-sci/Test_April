@@ -25,11 +25,14 @@ only an issue to navigate a large repo. the purpose is to do exactly this. It’
 
 - if merging, how to accept one but not all changes w/o individual commits. Sarah’s deleted a file & changed code, wants to keep the changes to code but keep the file:
 cherrypicking function ftw!
+commit often so you can pick and choose which changes you want to keep and not keep.
+we have follow up questions about this. namely the chronology of commits and how (if?) it knows to keep the later commit but do away with the first commit even though the second commit is based off of the first commit...
 
 - undo a commit:
 this is common, easy to do on the desktop app or from terminal. just going back to the previous version, basically the whole point of version control
 https://help.github.com/en/desktop/contributing-to-projects/reverting-a-commit
 https://sethrobertson.github.io/GitFixUm/fixup.html
+commit often so you can revert easily.
 
 - organization of a repo
 - how do you reorganize files & folders: specifically can’t drag and drop, how do you edit pathway?
