@@ -33,9 +33,8 @@ https://sethrobertson.github.io/GitFixUm/fixup.html
 
 - organization of a repo
 - how do you reorganize files & folders: specifically can’t drag and drop, how do you edit pathway?
-if one person download the repo and rearranges 
+if one person download the repo and rearranges on their local repo i.e. their computer using Finder or whatever and then push back to the cloud i.e. github and all of the organizational changes will be the new master that everyone else can work/pull from
 
-blah bah
 - “Network” under “Insights” visual representation v helpful but still don’t understand what actions we did
 
 - how do you merge multiple branches once the master has already been updated? Is this even an issue?
