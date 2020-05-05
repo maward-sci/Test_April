@@ -1,0 +1,37 @@
+Questions for Nicole Fish
+May 5th 2020
+
+- box vs. github
+- integrating google drive with github: no just use links.
+
+- editing spreadsheet on github no can do, but yes to text files & code:
+Can edit a .csv file directly on github but a fancier spreadsheet just use a link to the google sheet to directly edit
+
+- what’s the difference btwn a wiki & a readme:
+Readme is text only and uses markdown. wiki is github’s way of better documentation. wiki is the long form version of a readme. Only one readme per folder
+
+- workflow under “actions” seems out of our needed scope, but is there something conceptually we should take away from it/ implement? no we don’t need it unless we come up with something that should be automated.
+
+- number system of issues/commits/everything is assigned a number?
+helps with tracking to automate moving things on the trello-like board. under issues you see open/closed and if you change the filtering system you can see both issues and commits and open & closed.
+
+- what is a fork, hello world does not introduce this concept
+fork is similar to a branch but is a siloed branch i.e. saving someone else’s repository to your account. it’s good for exercises for your own personal workspace w/o collaboration.
+- does the repository ever get too big such that wanting to only modify one file in a repo still requires an entire branch? only an issue to navigate a large repo. the purpose is to do exactly this. It’s only pulling down the changes since your last pull 
+- if merging, how to accept one but not all changes w/o individual commits. Sarah’s deleted a file & changed code, wants to keep the changes to code but keep the file
+cherrypicking function ftw!
+- undo a commit
+this is common, easy to do on the desktop app or from terminal. just going back to the previous version, basically the whole point of version control
+https://help.github.com/en/desktop/contributing-to-projects/reverting-a-commit
+https://sethrobertson.github.io/GitFixUm/fixup.html
+
+- organization of a repo
+- how do you reorganize files & folders: specifically can’t drag and drop, how do you edit pathway?
+if one person download the repo and rearranges 
+
+
+- “Network” under “Insights” visual representation v helpful but still don’t understand what actions we did
+
+
+- how do you merge multiple branches once the master has already been updated? Is this even an issue?
+merge branches back to master often. Rebase to do so. 
