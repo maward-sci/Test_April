@@ -31,7 +31,7 @@ ggplot(data = CA) +
 
 
 ##smerolla says hello again!
-##diving in the deep end
+##diving in the deep
 
 
 
