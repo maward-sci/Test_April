@@ -9,7 +9,7 @@ no just use links.
 Can edit a .csv file directly on github but a fancier spreadsheet just use a link to the google sheet to directly edit
 
 - what’s the difference btwn a wiki & a readme:
-Readme is text only and uses markdown. wiki is github’s way of better documentation. wiki is the long form version of a readme. Only one readme per folder
+Readme is text only and uses markdown. wiki is github’s way of better documentation. wiki is the long form version of a readme. Only one readme per folder. Readme is industry standard but they're trying to start a transition to separate definitions i.e. longform/shortform
 
 - workflow under “actions” seems out of our needed scope, but is there something conceptually we should take away from it/ implement? 
 no we don’t need it unless we come up with something that should be automated.
