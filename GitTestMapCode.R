@@ -30,12 +30,6 @@ ggplot(data = CA) +
 #testing- smerolla says hello!
 
 
-##smerolla says hello again!
-##diving in the deep
+BLAH
+Adding a new line
 
-
-
-##a long pool noodle
-
-BLAH1
-BLAH2
