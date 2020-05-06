@@ -1,4 +1,9 @@
+
 #testing out rebase function - if I change the master before merging a branch with changes, do I need to rebase?
+=======
+#testing out rebase function
+#let's find out
+
 
 # practicing branching & merging CF
 # last day of april! CF
