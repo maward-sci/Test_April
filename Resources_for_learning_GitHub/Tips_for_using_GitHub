@@ -17,7 +17,7 @@ Note: github won't recognize an empty folder
 
 **Version Control
 - can you explain the number system of issues/pull requests/items that are assigned a number?
-Helps with tracking to automate moving things on the trello-like board ("Projects")
+Helps with tracking pull requests and items 
 Under issues/pull requests you can see open/closed - if you change the filtering system you can see both issues and pull requests, and open & closed (do this to see all numbers at once)
 Can also use these numbers to better communicate issues to others (e.g., if you comment "I'm having trouble addressing issue #5" - this will allow you to create a link that directs to issue #5)
 
@@ -60,3 +60,9 @@ No we don’t need it unless we come up with something that should be automated
 
 - what is a "Fork" (hello world does not introduce this concept)?
 A fork is similar to a branch but is a siloed branch i.e. saving someone else’s repository to your account. it’s good for conducting exercises on your own personal workspace w/o collaboration.
+
+- What is "Projects" and how does it work?
+Trello-like board that enables organization of items/tasks into columns like "To Do", "In Progress", and "Done"
+You can assign items (tasks/issues/pull requests) to certain columns to indicate the progress of that item 
+You can aslo automate the process by managing columns
+
