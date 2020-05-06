@@ -18,7 +18,7 @@ Note: github won't recognize an empty folder
 **Version Control
 - can you explain the number system of issues/pull requests/items that are assigned a number?
 Helps with tracking pull requests and items 
-Under issues/pull requests you can see open/closed - if you change the filtering system you can see both issues and pull requests, and open & closed (do this to see all numbers at once)
+Under "Issues" and "Pull requests" you can see open/closed - if you change the filtering system you can see both issues and pull requests, and open & closed (do this to see all numbers at once)
 Can also use these numbers to better communicate issues to others (e.g., if you comment "I'm having trouble addressing issue #5" - this will allow you to create a link that directs to issue #5)
 
 - does the repository ever get too big that it becomes annoying and cumbersome to modify a single file by making and merging a new branch?
