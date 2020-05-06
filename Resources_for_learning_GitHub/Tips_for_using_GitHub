@@ -26,7 +26,7 @@ No, the purpose of github is to do exactly this - it’s only pulling down the c
 
 - how do you merge branches once the master has already been updated? Is this even an issue?
 Rebase to do so (rebase: take all my changes off and save separately, and then pull master, and then apply my changes)
-*Important to merge branches back to master often to ensure you are working with the most up to date version of the master 
+*Important to merge branches back to master often to ensure everyone is working with the most up to date version of the master 
 
 - how do you undo a commit?
 Reverting is just going back to the previous version, basically the whole point of version control
