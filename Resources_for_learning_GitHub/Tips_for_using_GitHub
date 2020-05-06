@@ -12,7 +12,7 @@ Can edit a .csv file directly on github but for a fancier spreadsheet this is di
 - how do you reorganize files & folders in a repository: specifically you can’t drag and drop items, so how do you edit pathway?
 Can reorganize text files and code by changing the file pathway (in edit mode) - can't do this to pdfs and excel files on the web interface
 One person can download the repo and rearrange on their local repo (i.e. their computer using Finder or whatever) and then push back to the cloud (i.e. github) and all of the organizational changes will be the new master that everyone else can work/pull from
-
+Note: github won't recognize an empty folder
 
 
 **Version Control
