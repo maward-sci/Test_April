@@ -45,5 +45,8 @@ BLAH2
 #testing revert changes
 #change 1
 #change 2
+<<<<<<< HEAD
 #change 3
 #change 4
+=======
+>>>>>>> parent of cbc8ee7... Added change 3
