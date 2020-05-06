@@ -1,0 +1,67 @@
+Questions Answered by Nicole Fish, Asked by Carina Fish and Sarah Merolla
+May 5th 2020
+
+**Organization
+- can you integrate google drive with github?
+No just paste links to google drive in github - seems like best option would be to keep txt files and code on github, and pdfs and spreadsheets on google drive (or box)
+
+- can you edit an excel spreadsheet on github?
+No, can't edit an excel file or a google sheet, but can edit text files & code
+Can edit a .csv file directly on github but for a fancier spreadsheet this is difficult, so just use a link to the google sheet to directly edit
+
+- how do you reorganize files & folders in a repository: specifically you can’t drag and drop items, so how do you edit pathway?
+Can reorganize text files and code by changing the file pathway (in edit mode) - can't do this to pdfs and excel files on the web interface
+Using the desktop app or terminal, you can download the repo and rearrange/rename files and folders on your local repo (i.e. their computer using Finder or whatever) and then push back to the cloud (i.e. github) and all of the organizational changes will be the new master that everyone else can work/pull from
+Note: github won't recognize an empty folder
+
+
+**Version Control
+- can you explain the number system of issues/pull requests/items that are assigned a number?
+Helps with tracking items - specifically pull requests and issues
+Under "Issues" and "Pull requests" you can see open/closed items - if you change the filtering system you can see both issues and pull requests, and both open and closed items (e.g., to see all numbers at once - delete any items in the "Filters" search bar and hit enter on your keyboard)
+Can also use these numbers to better communicate issues to others (e.g., if you comment "I'm having trouble addressing issue #5" - this will allow you to create a link that directs to issue #5)
+
+- does the repository ever get too big that it becomes annoying and cumbersome to modify a single file by making and merging a new branch?
+No, the purpose of github is to do exactly this - it’s only pulling down the changes since your last pull (only may be an issue for a massively enormous repo.) 
+
+- how do you merge branches once the master has already been updated? Is this even an issue?
+Rebase to do so (rebase: take all my changes off and save separately, and then pull master, and then apply my changes)
+*Important to merge branches back to master often to ensure everyone is working with the most up to date version of the master 
+
+- how do you undo a commit?
+Reverting is just going back to the previous version, basically the whole point of version control
+~ Reverting on the desktop app - https://help.github.com/en/desktop/contributing-to-projects/reverting-a-commit 
+~ Reverting from terminal - https://sethrobertson.github.io/GitFixUm/fixup.html
+~ On the web interface - instead of reverting, you can create a new branch from a previous commit (in "commits" click on the commit you want to return to, then click browse files, then make a new branch from the commit)
+*Important to commit often so you can revert easily
+Note: you can revert a pull request to unmerge branches!
+
+-follow up question about this: namely the chronology of commits and how (if?) it knows to keep the later commit but do away with the first commit even though the second commit is based off of the first commit...
+Reverting using desktop - reverting any commits that are not the most recent commit will create a conflict that you must manually fix in the code
+
+- if merging, can you accept some but not all changes?
+*Important to commit often so you can pick and choose which changes you want to keep and not keep.
+If using terminal: cherrypicking function ftw!
+
+
+
+**Other GitHub Features
+- what is “Network” under “Insights”?
+Very helpful visual representation of our tree (can see the creation of new branches and merging of branches)
+
+- what’s the difference btwn a "Wiki" & a readme?
+Readme is text only and uses markdown. There should only be one readme per folder.
+Wiki is github’s way of providing better documentation that enables more user-friendly formatting (instead of markdown) - the long form version of a readme
+Readme has been the industry standard but they're trying to start to transition to separate definitions between wiki and readme i.e. longform/shortform
+
+- workflow under “Actions” seems out of our needed scope, but is there something conceptually we should take away from it/ implement? 
+No we don’t need it unless we come up with something that should be automated
+
+- what is a "Fork" (hello world does not introduce this concept)?
+A fork is similar to a branch but is a siloed branch i.e. saving someone else’s repository to your account. it’s good for conducting exercises on your own personal workspace w/o collaboration.
+
+- what is "Projects" and how does it work?
+Trello-like board that enables organization of items/tasks into columns like "To Do", "In Progress", and "Done"
+You can assign items (tasks/issues/pull requests) to certain columns to indicate the progress of that item 
+You can also automate the process by managing columns
+
