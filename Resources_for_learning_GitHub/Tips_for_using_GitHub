@@ -63,5 +63,5 @@ A fork is similar to a branch but is a siloed branch i.e. saving someone else’
 - what is "Projects" and how does it work?
 Trello-like board that enables organization of items/tasks into columns like "To Do", "In Progress", and "Done"
 You can assign items (tasks/issues/pull requests) to certain columns to indicate the progress of that item 
-You can aslo automate the process by managing columns
+You can also automate the process by managing columns
 
