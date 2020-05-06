@@ -1,45 +1,62 @@
-Questions for Nicole Fish
+Questions Answered by Nicole Fish
 May 5th 2020
 
-- box vs. github
-- integrating google drive with github: 
-no just use links.
+**Organization
+- can you integrate google drive with github?
+No just paste links to google drive in github - seems like best option would be to keep txt files and code on github, and pdfs and spreadsheets on google drive (or box)
 
-- editing spreadsheet on github no can do, but yes to text files & code:
-Can edit a .csv file directly on github but a fancier spreadsheet just use a link to the google sheet to directly edit
+- can you edit an excel spreadsheet on github?
+No, can't edit an excel file or a google sheet, but can edit text files & code
+Can edit a .csv file directly on github but for a fancier spreadsheet this is difficult, so just use a link to the google sheet to directly edit
 
-- what’s the difference btwn a wiki & a readme:
-Readme is text only and uses markdown. wiki is github’s way of better documentation. wiki is the long form version of a readme. Only one readme per folder. Readme is industry standard but they're trying to start a transition to separate definitions i.e. longform/shortform
+- how do you reorganize files & folders in a repository: specifically you can’t drag and drop items, so how do you edit pathway?
+Can reorganize text files and code by changing the file pathway (in edit mode) - can't do this to pdfs and excel files on the web interface
+One person can download the repo and rearrange on their local repo (i.e. their computer using Finder or whatever) and then push back to the cloud (i.e. github) and all of the organizational changes will be the new master that everyone else can work/pull from
 
-- workflow under “actions” seems out of our needed scope, but is there something conceptually we should take away from it/ implement? 
-no we don’t need it unless we come up with something that should be automated.
 
-- number system of issues/commits/everything is assigned a number?
-helps with tracking to automate moving things on the trello-like board. under issues you see open/closed and if you change the filtering system you can see both issues and commits and open & closed.
 
-- what is a fork, hello world does not introduce this concept:
-fork is similar to a branch but is a siloed branch i.e. saving someone else’s repository to your account. it’s good for exercises for your own personal workspace w/o collaboration.
+**Version Control
+- can you explain the number system of issues/pull requests/items that are assigned a number?
+Helps with tracking to automate moving things on the trello-like board ("Projects")
+Under issues/pull requests you can see open/closed - if you change the filtering system you can see both issues and pull requests, and open & closed (do this to see all numbers at once)
+Can also use these numbers to better communicate issues to others (e.g., if you comment "I'm having trouble addressing issue #5" - this will allow you to create a link that directs to issue #5)
 
-- does the repository ever get too big such that wanting to only modify one file in a repo still requires an entire branch?
-only an issue to navigate a large repo. the purpose is to do exactly this. It’s only pulling down the changes since your last pull 
+- does the repository ever get too big that it becomes annoying and cumbersome to modify a single file by making and merging a new branch?
+The purpose of github is to do exactly this - it’s only pulling down the changes since your last pull (only may be an issue for a massively enormous repo.) 
 
-- if merging, how to accept one but not all changes w/o individual commits. Sarah’s deleted a file & changed code, wants to keep the changes to code but keep the file:
-cherrypicking function ftw!
-commit often so you can pick and choose which changes you want to keep and not keep.
-we have follow up questions about this. namely the chronology of commits and how (if?) it knows to keep the later commit but do away with the first commit even though the second commit is based off of the first commit...
+- how do you merge branches once the master has already been updated? Is this even an issue?
+Rebase to do so (rebase: take all my changes off and save separately, and then pull master, and then apply my changes)
+*Important to merge branches back to master often to ensure you are working with the most up to date version of the master 
 
-- undo a commit:
-this is common, easy to do on the desktop app or from terminal. just going back to the previous version, basically the whole point of version control
-https://help.github.com/en/desktop/contributing-to-projects/reverting-a-commit
-https://sethrobertson.github.io/GitFixUm/fixup.html
-commit often so you can revert easily.
+- how do you undo a commit?
+Reverting is just going back to the previous version, basically the whole point of version control
+~ Reverting on the desktop app - https://help.github.com/en/desktop/contributing-to-projects/reverting-a-commit 
+~ Reverting from terminal - https://sethrobertson.github.io/GitFixUm/fixup.html
+~ On the web interface - instead of reverting, you can create a new branch from a previous commit (in "commits" click on the commit you want to return to, then click browse files, then make a new branch from the commit)
+*Important to commit often so you can revert easily
+Note: you can revert a pull request to unmerge branches!
 
-- organization of a repo
-- how do you reorganize files & folders: specifically can’t drag and drop, how do you edit pathway?
-if one person download the repo and rearranges on their local repo i.e. their computer using Finder or whatever and then push back to the cloud i.e. github and all of the organizational changes will be the new master that everyone else can work/pull from
+-follow up question about this: namely the chronology of commits and how (if?) it knows to keep the later commit but do away with the first commit even though the second commit is based off of the first commit...
+Reverting using desktop - reverting any commits that are not the most recent commit will create a conflict that you must manually fix in the code
 
-- “Network” under “Insights” visual representation v helpful but still don’t understand what actions we did
-walked through are tree. lesson learned to merge branches back to master often. 
+- if merging, can you accept some but not all changes?
+*Important to commit often so you can pick and choose which changes you want to keep and not keep.
+If using terminal: cherrypicking function ftw!
 
-- how do you merge multiple branches once the master has already been updated? Is this even an issue?
-merge branches back to master often. Rebase to do so. 
+
+
+**Other GitHub Features
+- “Network” under “Insights” - don’t understand what actions we did
+Very helpful visual representation of our tree
+*Important to merge branches back to master often 
+
+- what’s the difference btwn a "Wiki" & a readme?
+Readme is text only and uses markdown. There should only be one readme per folder.
+Wiki is github’s way of providing better documentation that enables more user-friendly formatting (instead of markdown) - the long form version of a readme
+Readme has been the industry standard but they're trying to start to transition to separate definitions between wiki and readme i.e. longform/shortform
+
+- workflow under “Actions” seems out of our needed scope, but is there something conceptually we should take away from it/ implement? 
+No we don’t need it unless we come up with something that should be automated
+
+- what is a "Fork" (hello world does not introduce this concept)?
+A fork is similar to a branch but is a siloed branch i.e. saving someone else’s repository to your account. it’s good for conducting exercises on your own personal workspace w/o collaboration.
