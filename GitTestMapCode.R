@@ -50,3 +50,5 @@ BLAH2
 #change 4
 =======
 >>>>>>> parent of cbc8ee7... Added change 3
+#the conflict emerged from trying to revert a commit that wasn't the most recent
+#seems like you will have to manually deal with conflicts for any reverts that don't address the most recent commit
