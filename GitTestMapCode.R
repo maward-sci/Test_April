@@ -1,3 +1,5 @@
+#testing out rebase function
+
 # practicing branching & merging CF
 # last day of april! CF
 # complete nonsense idk how to spell nonesense? CF
