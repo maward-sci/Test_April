@@ -42,11 +42,5 @@ BLAH2
 
 #adding line of code - branched off of third commit
 
-#testing reverting changes
+#testing revert changes
 #change 1
-<<<<<<< HEAD
-#change 2
-
-=======
->>>>>>> parent of 802bcdd... Added change 2
-
