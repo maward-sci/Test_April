@@ -46,9 +46,8 @@ If using terminal: cherrypicking function ftw!
 
 
 **Other GitHub Features
-- “Network” under “Insights” - don’t understand what actions we did
+- What is “Network” under “Insights”?
 Very helpful visual representation of our tree (can see the creation of new branches and merging of branches)
-*Important to merge branches back to master often 
 
 - what’s the difference btwn a "Wiki" & a readme?
 Readme is text only and uses markdown. There should only be one readme per folder.
