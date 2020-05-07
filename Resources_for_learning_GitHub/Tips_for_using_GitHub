@@ -28,7 +28,7 @@ No, the purpose of github is to do exactly this - it’s only pulling down the c
 Merge commit - Will keep all commits history of the feature branch and move them into the master branch. Will add extra dummy commit.
 Squash and merge - Will group all feature branch commits into one commit then append it in the front of the master branch. Will add extra dummy commit.
 Rebase and merge - Will append all commits history of the feature branch in the front of the master branch. Will NOT add extra dummy commit.
-Links:
+Links (that have good visual representations of each):
 https://stackoverflow.com/questions/2427238/in-git-what-is-the-difference-between-merge-squash-and-rebase
 https://medium.com/datadriveninvestor/git-rebase-vs-merge-cc5199edd77c
 https://rietta.com/blog/github-merge-types/
