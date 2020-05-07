@@ -25,17 +25,17 @@ Can also use these numbers to better communicate issues to others (e.g., if you 
 No, the purpose of github is to do exactly this - it’s only pulling down the changes since your last pull (only may be an issue for a massively enormous repo.) 
 
 - what is the difference between create a merge commit, squash and merge, and rebase and merge?
-Merge commit - Will keep all commits history of the feature branch and move them into the master branch. Will add extra dummy commit.
-Squash and merge - Will group all feature branch commits into one commit then append it in the front of the master branch. Will add extra dummy commit.
-Rebase and merge - Will append all commits history of the feature branch in the front of the master branch. Will NOT add extra dummy commit.
+Merge commit - takes the contents of the feature branch and integrates it with the master branch (multiple commits will appear separate in the version history)
+Squash and merge - takes the contents of the feature branch and integrates it with the master branch (multiple commits will be grouped into a single commit in the version history)
+Rebase and merge - moves the base of the feature branch to master branch’s ending point (rewrites version history)
 Links (that have good visual representations of each):
 https://stackoverflow.com/questions/2427238/in-git-what-is-the-difference-between-merge-squash-and-rebase
 https://medium.com/datadriveninvestor/git-rebase-vs-merge-cc5199edd77c
 https://rietta.com/blog/github-merge-types/
 
 - how do you merge branches once the master has already been updated? Is this even an issue?
-Rebase to do so (rebase: take all my changes off and save separately, and then pull master, and then apply my changes)
-*Important to merge branches back to master often to ensure everyone is working with the most up to date version of the master 
+This is what causes merge conflicts that you will have to manually resolve in the code
+*Important to merge branches back to master often to ensure everyone is working with the most up to date version of the master, thus reducing merge conflicts 
 
 - how do you undo a commit?
 Reverting is just going back to the previous version, basically the whole point of version control
