@@ -50,7 +50,7 @@ Reverting using desktop - reverting any commits that are not the most recent com
 
 - if merging, can you accept some but not all changes?
 *Important to commit often so you can pick and choose which changes you want to keep and not keep.
-If using terminal: cherrypicking function ftw!
+You can if you are using terminal: cherrypicking function ftw!
 
 
 
