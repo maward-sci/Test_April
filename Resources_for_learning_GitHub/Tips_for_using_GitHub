@@ -24,6 +24,15 @@ Can also use these numbers to better communicate issues to others (e.g., if you 
 - does the repository ever get too big that it becomes annoying and cumbersome to modify a single file by making and merging a new branch?
 No, the purpose of github is to do exactly this - it’s only pulling down the changes since your last pull (only may be an issue for a massively enormous repo.) 
 
+- what is the difference between create a merge commit, squash and merge, and rebase and merge?
+Merge commit - Will keep all commits history of the feature branch and move them into the master branch. Will add extra dummy commit.
+Squash and merge - Will group all feature branch commits into one commit then append it in the front of the master branch. Will add extra dummy commit.
+Rebase and merge - Will append all commits history of the feature branch in the front of the master branch. Will NOT add extra dummy commit.
+Links:
+https://stackoverflow.com/questions/2427238/in-git-what-is-the-difference-between-merge-squash-and-rebase
+https://medium.com/datadriveninvestor/git-rebase-vs-merge-cc5199edd77c
+https://rietta.com/blog/github-merge-types/
+
 - how do you merge branches once the master has already been updated? Is this even an issue?
 Rebase to do so (rebase: take all my changes off and save separately, and then pull master, and then apply my changes)
 *Important to merge branches back to master often to ensure everyone is working with the most up to date version of the master 
