@@ -1,4 +1,9 @@
+
 #testing out rebase function
+=======
+#testing out rebase - if the "master" changes before you can merge your changed branch into the master-then you rebase?
+#let's find out
+
 
 # practicing branching & merging CF
 # last day of april! CF
@@ -40,8 +45,26 @@ ggplot(data = CA) +
 ##a long pool noodle
 
 
+
 BLAH
 BLAH2
 BLAH3
 BLAH4
 BLAH5
+=======
+BLAH1
+BLAH2
+
+#adding line of code - branched off of third commit
+
+#testing revert changes
+#change 1
+#change 2
+
+#change 3
+#change 4
+=======
+
+#the conflict emerged from trying to revert a commit that wasn't the most recent
+#seems like you will have to manually deal with conflicts for any reverts that don't address the most recent commit
+
